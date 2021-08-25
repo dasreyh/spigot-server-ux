@@ -1,0 +1,7 @@
+name: Server-UX
+version: ${project.version}
+main: com.weirtz.serverux.Main
+api-version: 1.17
+authors: [ brendan_weirtz ]
+description: An assortment of User Experience changes for spigot.
+website: weirtz.com
