@@ -5,3 +5,13 @@ api-version: 1.17
 authors: [ brendan_weirtz ]
 description: An assortment of User Experience changes for spigot.
 website: weirtz.com
+commands:
+  announcements:
+    description: Announcements helper
+    usage: /<command>
+    aliases: [announce, announcer]
+    permission: announcements.*
+permissions:
+  announcements.*:
+    description: Allows all announcement commands
+    default: op
